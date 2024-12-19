@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import-normalize;
+
+body {
+    background-color: #252422;
+    font-family: "Geologica", "sans-serif";
+}
