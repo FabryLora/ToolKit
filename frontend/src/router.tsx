@@ -5,6 +5,7 @@ import Calculator from "./pages/Calculator";
 import { DefaultHome } from "./pages/DefaultHome";
 import { Home } from "./pages/GuestHome";
 import Login from "./pages/Login";
+import Notes from "./pages/Notes";
 import Signup from "./pages/Signup";
 
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
             {
                 path: "/calculator",
                 element: <Calculator />,
+            },
+            {
+                path: "/notes",
+                element: <Notes />,
             },
         ],
     },

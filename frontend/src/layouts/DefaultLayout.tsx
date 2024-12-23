@@ -42,11 +42,12 @@ export const DefaultLayout = () => {
     const pageLinks = [
         { title: "Home", href: "/" },
         { title: "Calculator", href: "/calculator" },
+        { title: "Notes", href: "/notes" },
     ];
 
     const appButtonAttributes = [
         { icon: faCalculator, href: "/calculator" },
-        { icon: faNoteSticky, href: "#" },
+        { icon: faNoteSticky, href: "/notes" },
         { icon: faClock, href: "#" },
         { icon: faStopwatch, href: "#" },
         { icon: faNoteSticky, href: "#" },

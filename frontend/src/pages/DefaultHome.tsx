@@ -8,7 +8,7 @@ import AppButton from "../components/AppButton.tsx";
 export const DefaultHome = () => {
     const appButtonAttributes = [
         { icon: faCalculator, href: "/calculator" },
-        { icon: faNoteSticky, href: "#" },
+        { icon: faNoteSticky, href: "/notes" },
         { icon: faClock, href: "#" },
         { icon: faStopwatch, href: "#" },
         { icon: faNoteSticky, href: "#" },
